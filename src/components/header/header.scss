@@ -1,44 +1,80 @@
 .preview {
-    padding: 52px 0 200px 0;
-    min-height: 100vh;
-    background: url('../../images/Main\ bg.jpg') no-repeat center/cover;
-    h1 {
-        padding-top: 111px;
-        font-family: 'Merienda';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 58px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        text-align: center;
-        margin-bottom: 0;
+    &-main {
+        padding: 52px 0 200px 0;
+        min-height: 640px;
+        background: url('../../images/Main\ bg.jpg') no-repeat center/cover;
+        h1 {
+            padding-top: 111px;
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 58px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            margin-bottom: 0;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 35px;
+            color: #FFFFFF;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        &__btn {
+            display: block;
+            margin: 0 auto;
+            width: 120px;
+            height: 30px;
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 3px;
+        }
     }
-    h2 {
-        margin-bottom: 20px;
-        font-family: 'Merienda';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 35px;
-        color: #FFFFFF;
-        text-align: center;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &-coffee {
+        min-height: 260px;
+        background: url('../../images/coffee_bg.jpg') no-repeat center/cover;
+        padding: 52px 0 84px 0;
+        h1 {
+            padding-top: 111px;
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 58px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            margin-bottom: 0;
+        }
     }
-    &__btn {
-        display: block;
-        margin: 0 auto;
-        width: 120px;
-        height: 30px;
-        font-family: 'Merienda';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 20px;
-        color: #FFFFFF;
-        border: 1px solid #FFFFFF;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        background-color: rgba(0, 0, 0, 0);
-        border-radius: 3px;
+    &-goods {
+        min-height: 260px;
+        background: url('../../images/goods_bg.png') no-repeat center/cover;
+        padding: 52px 0 84px 0;
+        h1 {
+            padding-top: 111px;
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 58px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            margin-bottom: 0;
+        }
     }
 }

@@ -1,4 +1,4 @@
-.coffee-list-item {
+.coffee-list-item-best {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -24,5 +24,45 @@
         line-height: 20px;
         text-align: center;
         color: #000000;
+    }
+}
+.coffee-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 37px 27px 22px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    &__title {
+        margin-top: 16px;
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__price {
+        margin-top: 10px;
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    &__country {
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 14px;
+    }
+    &:hover {
+        filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.25));
     }
 }
