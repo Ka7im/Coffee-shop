@@ -2,7 +2,7 @@ import './header.scss';
 import Nav from '../nav/nav';
 import Divider from '../divider/divider';
 
-function Header({page, selectPage, onSelectItem}) {
+function Header({page, selectPage}) {
     switch(page) {
         case 'goods' : return ( 
             <header className="preview-goods">
@@ -28,7 +28,8 @@ function Header({page, selectPage, onSelectItem}) {
                     <Divider color={'white'}/>
                     <h2>We makes every day full of energy and taste</h2>
                     <h2>Want to try our beans?</h2>
-                    <button className="preview-main__btn">More</button>
+                    <button className="preview-main__btn"
+                            onClick={() => selectPage('coffee', false)}>More</button>
                 </div>
             </header>);
     }
