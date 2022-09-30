@@ -3,11 +3,11 @@ import FilterPanel from "../filter-panel/filter-panel";
 
 import './panel.scss';
 
-function Panel({searchCoffee}) {
+function Panel({searchCoffee, searchCountry}) {
     return (
         <div className="panel">
             <SearchPanel searchCoffee={searchCoffee} />
-            <FilterPanel />
+            <FilterPanel searchCountry={searchCountry} />
         </div>
     );
 }

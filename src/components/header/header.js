@@ -2,12 +2,12 @@ import './header.scss';
 import Nav from '../nav/nav';
 import Divider from '../divider/divider';
 
-function Header({page, selectPage}) {
+function Header({page, selectPage, onSelectItem}) {
     switch(page) {
         case 'goods' : return ( 
             <header className="preview-goods">
                 <div className="container">
-                    <Nav color={'white'} selectPage={selectPage}/>
+                    <Nav color={'white'} selectPage={selectPage} />
                     <h1>For your pleasure</h1>
                 </div>
             </header>);
@@ -15,7 +15,7 @@ function Header({page, selectPage}) {
         case 'coffee': return (
             <header className="preview-coffee">
                 <div className="container">
-                    <Nav color={'white'} selectPage={selectPage}/>
+                    <Nav color={'white'} selectPage={selectPage} />
                     <h1>Our Coffee</h1>
                 </div>
             </header>);
